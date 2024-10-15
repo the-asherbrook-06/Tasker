@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "936338121467",
+    "project_id": "tasker-asher-app",
+    "storage_bucket": "tasker-asher-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936338121467:android:54eb4c685cf6cf66a4065e",
+        "android_client_info": {
+          "package_name": "app.tasker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936338121467-qhvod4k77lneoqvebgss6sath8322qov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK6B9Q0GyYp1xlSNlq5S6RoMzzn8AJMOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936338121467-qhvod4k77lneoqvebgss6sath8322qov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "936338121467-j73qtsv7pon856lu9bcf8rlqsg4b26em.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.asher.tasker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

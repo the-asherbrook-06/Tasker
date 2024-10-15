@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace = "app.tasker" // Replace with your actual namespace
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "app.tasker" // Replace with your actual application ID
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'my_key_alias' // This is the alias you specified
+            keyPassword 'android' // This is the password for your key alias
+            storeFile file('C:/Users/santh/my_keystores/release.keystore') // Correct path to your keystore file
+            storePassword 'android' // This is the password for your keystore
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release // Reference to the signing config
+            minifyEnabled true // Enable code shrinking
+            shrinkResources true // Enable resource shrinking
+        }
+    }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.0.0') // This should control versions
+    implementation 'com.google.firebase:firebase-auth' // Without version number, using BOM
+    implementation 'com.google.android.gms:play-services-auth' // Without version number
+}

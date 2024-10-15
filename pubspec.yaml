@@ -1,0 +1,71 @@
+name: tasker
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^5.4.4
+  font_awesome_flutter: ^10.7.0
+  firebase_core: ^3.6.0
+  google_fonts: ^6.2.1
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.1.0
+  intl: ^0.19.0
+  flutter_launcher_icons: ^0.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/Assets/Images/WelcomePage/
+    - lib/Assets/Icons/Icon.png
+
+  fonts:
+    - family: Assistant
+      fonts:
+        - asset: lib/Assets/Fonts/Assistant/Assistant-Bold.ttf
+        - asset: lib/Assets/Fonts/Assistant/Assistant-ExtraBold.ttf
+        - asset: lib/Assets/Fonts/Assistant/Assistant-ExtraLight.ttf
+        - asset: lib/Assets/Fonts/Assistant/Assistant-Light.ttf
+        - asset: lib/Assets/Fonts/Assistant/Assistant-Medium.ttf
+        - asset: lib/Assets/Fonts/Assistant/Assistant-Regular.ttf
+        - asset: lib/Assets/Fonts/Assistant/Assistant-SemiBold.ttf
+    - family: Rubik
+      fonts:
+        - asset: lib/Assets/Fonts/Rubik/Rubik-Black.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-BlackItalic.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-Bold.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-BoldItalic.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-ExtraBold.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-ExtraBoldItalic.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-Italic.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-Light.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-LightItalic.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-Medium.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-MediumItalic.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-Regular.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-SemiBold.ttf
+        - asset: lib/Assets/Fonts/Rubik/Rubik-SemiBoldItalic.ttf
+
+flutter_icons:
+  image_path: "lib/Assets/Icons/Icon.png"
+
+  android: true
+  adaptive_icon_background: "#ffffff"
+
+  ios: true
+  remove_alpha_ios: true
