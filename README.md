@@ -1,16 +1,24 @@
-# tasker
+# Tasker
+Hey there! Welcome to Tasker, the super user-friendly task management app that's designed to help you stay on top of things. With Tasker, you can easily create, organize, and prioritize your tasks, making it a breeze to reach your goals and meet your deadlines. The app's clean and simple interface helps you focus on your tasks without any unnecessary distractions. Whether you're juggling personal projects or work-related tasks, Tasker is here to boost your productivity and time management skills!
 
-A new Flutter project.
+## Android Releases
+| Release name | Release Version | Release Links | 
+| ------------ | --------------- | ------------- | 
+| Tasker Pre-Release | v.1.0.0+1 | [release v.1.0.0+1]("https://github.com/the-asherbrook-06/Tasker/releases/download/Android/Tasker.v1.0.0+1.apk") |
 
-## Getting Started
+## iOS Releases
+Coming soon
 
-This project is a starting point for a Flutter application.
+## macOS Releases
+Coming soon
 
-A few resources to get you started if this is your first Flutter project:
+## Windows Releases
+Coming soon
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Linux Releases
+Coming soon
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contact us
+| Name | Role | Email |
+| ---- | ---- | ----- |
+| Santhosh Sivakumar | Lead Developer | [2005.santhoshsivakumar@gmail.com](mailto:2005.santhoshsivakumar@gmail.com)
