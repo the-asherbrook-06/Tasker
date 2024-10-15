@@ -1,4 +1,7 @@
 # Tasker
+
+![](assets/icons/Icon.png)
+
 Hey there! Welcome to Tasker, the super user-friendly task management app that's designed to help you stay on top of things. With Tasker, you can easily create, organize, and prioritize your tasks, making it a breeze to reach your goals and meet your deadlines. The app's clean and simple interface helps you focus on your tasks without any unnecessary distractions. Whether you're juggling personal projects or work-related tasks, Tasker is here to boost your productivity and time management skills!
 
 ## Android Releases
