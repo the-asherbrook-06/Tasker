@@ -4,7 +4,7 @@ Hey there! Welcome to Tasker, the super user-friendly task management app that's
 ## Android Releases
 | Release name | Release Version | Release Links | 
 | ------------ | --------------- | ------------- | 
-| Tasker Pre-Release | v.1.0.0+1 | [release v.1.0.0+1]("https://github.com/the-asherbrook-06/Tasker/releases/download/Android/Tasker.v1.0.0+1.apk") |
+| Tasker Pre-Release | v.1.0.0+1 | [release v.1.0.0+1](https://github.com/the-asherbrook-06/Tasker/releases/download/Android/Tasker.v1.0.0+1.apk) |
 
 ## iOS Releases
 Coming soon
